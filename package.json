@@ -1,0 +1,40 @@
+{
+    "name": "nav-frontend-cms",
+    "version": "1.0.0",
+    "description": "Oversetter tekstfiler til React-komponenter fra nav-frontend-moduler",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel src/index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "^16.9.11",
+        "@types/react-dom": "^16.9.3",
+        "less": "^3.10.3",
+        "parcel-bundler": "^1.12.4",
+        "typescript": "^3.7.2"
+    },
+    "dependencies": {
+        "@condenast/xml-to-react": "^1.0.0",
+        "classnames": "^2.2.6",
+        "lodash.throttle": "^4.1.1",
+        "nav-frontend-chevron": "^1.0.10",
+        "nav-frontend-chevron-style": "^0.3.5",
+        "nav-frontend-core": "^4.0.11",
+        "nav-frontend-ekspanderbartpanel": "^1.0.35",
+        "nav-frontend-ekspanderbartpanel-style": "^0.3.22",
+        "nav-frontend-js-utils": "^1.0.8",
+        "nav-frontend-lenker": "^1.0.32",
+        "nav-frontend-lenker-style": "^0.2.24",
+        "nav-frontend-lesmerpanel": "0.0.31",
+        "nav-frontend-lesmerpanel-style": "0.0.27",
+        "nav-frontend-paneler-style": "^0.3.17",
+        "nav-frontend-typografi": "^2.0.16",
+        "nav-frontend-typografi-style": "^1.0.17",
+        "react": "^16.11.0",
+        "react-collapse": "^5.0.0",
+        "react-dom": "^16.11.0"
+    }
+}
